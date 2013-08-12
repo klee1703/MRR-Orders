@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795A83EC165DDE5D001F27D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795A83EB165DDE5D001F27D9 /* Foundation.framework */; };
+		795A83EF165DDE5D001F27D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A83EE165DDE5D001F27D9 /* main.m */; };
+		795A83F3165DDE5D001F27D9 /* MRR_Orders.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 795A83F2165DDE5D001F27D9 /* MRR_Orders.1 */; };
+		795A83FB165DDFF7001F27D9 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A83FA165DDFF7001F27D9 /* OrderItem.m */; };
+		795A83FE165DE05B001F27D9 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A83FD165DE05B001F27D9 /* Address.m */; };
+		795A8404165DE0E3001F27D9 /* OrderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A8403165DE0E3001F27D9 /* OrderEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		795A83E5165DDE5D001F27D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				795A83F3165DDE5D001F27D9 /* MRR_Orders.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		795A83E7165DDE5D001F27D9 /* MRR Orders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MRR Orders"; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A83EB165DDE5D001F27D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		795A83EE165DDE5D001F27D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		795A83F1165DDE5D001F27D9 /* MRR Orders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRR Orders-Prefix.pch"; sourceTree = "<group>"; };
+		795A83F2165DDE5D001F27D9 /* MRR_Orders.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MRR_Orders.1; sourceTree = "<group>"; };
+		795A83F9165DDFF7001F27D9 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		795A83FA165DDFF7001F27D9 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		795A83FC165DE05B001F27D9 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		795A83FD165DE05B001F27D9 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		795A8402165DE0E3001F27D9 /* OrderEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderEntry.h; sourceTree = "<group>"; };
+		795A8403165DE0E3001F27D9 /* OrderEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795A83E4165DDE5D001F27D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A83EC165DDE5D001F27D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		795A83DC165DDE5D001F27D9 = {
+			isa = PBXGroup;
+			children = (
+				795A83ED165DDE5D001F27D9 /* MRR Orders */,
+				795A83EA165DDE5D001F27D9 /* Frameworks */,
+				795A83E8165DDE5D001F27D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		795A83E8165DDE5D001F27D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795A83E7165DDE5D001F27D9 /* MRR Orders */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795A83EA165DDE5D001F27D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795A83EB165DDE5D001F27D9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		795A83ED165DDE5D001F27D9 /* MRR Orders */ = {
+			isa = PBXGroup;
+			children = (
+				795A83EE165DDE5D001F27D9 /* main.m */,
+				795A83F2165DDE5D001F27D9 /* MRR_Orders.1 */,
+				795A83F0165DDE5D001F27D9 /* Supporting Files */,
+				795A83F9165DDFF7001F27D9 /* OrderItem.h */,
+				795A83FA165DDFF7001F27D9 /* OrderItem.m */,
+				795A83FC165DE05B001F27D9 /* Address.h */,
+				795A83FD165DE05B001F27D9 /* Address.m */,
+				795A8402165DE0E3001F27D9 /* OrderEntry.h */,
+				795A8403165DE0E3001F27D9 /* OrderEntry.m */,
+			);
+			path = "MRR Orders";
+			sourceTree = "<group>";
+		};
+		795A83F0165DDE5D001F27D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				795A83F1165DDE5D001F27D9 /* MRR Orders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795A83E6165DDE5D001F27D9 /* MRR Orders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795A83F6165DDE5D001F27D9 /* Build configuration list for PBXNativeTarget "MRR Orders" */;
+			buildPhases = (
+				795A83E3165DDE5D001F27D9 /* Sources */,
+				795A83E4165DDE5D001F27D9 /* Frameworks */,
+				795A83E5165DDE5D001F27D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRR Orders";
+			productName = "MRR Orders";
+			productReference = 795A83E7165DDE5D001F27D9 /* MRR Orders */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795A83DE165DDE5D001F27D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Keith Lee";
+			};
+			buildConfigurationList = 795A83E1165DDE5D001F27D9 /* Build configuration list for PBXProject "MRR Orders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 795A83DC165DDE5D001F27D9;
+			productRefGroup = 795A83E8165DDE5D001F27D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795A83E6165DDE5D001F27D9 /* MRR Orders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795A83E3165DDE5D001F27D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795A83EF165DDE5D001F27D9 /* main.m in Sources */,
+				795A83FB165DDFF7001F27D9 /* OrderItem.m in Sources */,
+				795A83FE165DE05B001F27D9 /* Address.m in Sources */,
+				795A8404165DE0E3001F27D9 /* OrderEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		795A83F4165DDE5D001F27D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		795A83F5165DDE5D001F27D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		795A83F7165DDE5D001F27D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRR Orders/MRR Orders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		795A83F8165DDE5D001F27D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRR Orders/MRR Orders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795A83E1165DDE5D001F27D9 /* Build configuration list for PBXProject "MRR Orders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A83F4165DDE5D001F27D9 /* Debug */,
+				795A83F5165DDE5D001F27D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795A83F6165DDE5D001F27D9 /* Build configuration list for PBXNativeTarget "MRR Orders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795A83F7165DDE5D001F27D9 /* Debug */,
+				795A83F8165DDE5D001F27D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795A83DE165DDE5D001F27D9 /* Project object */;
+}
